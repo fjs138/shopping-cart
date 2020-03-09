@@ -1,4 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Requirements
+Create a shopping cart that:
+tracks the total number of items in a cart in the navbar
+allows different item times to be added
+allows for changing the quantity of an item
+allows for deleting an item type from the cart
+tracks count of the quantity of each item purchased
+allows for the removal of items from the cart
+allows for resetting/clearing the shopping cart
+if value of count property is zero, make cart counter yellow
+
+## I have this project hosted on a nodejs server
+www.project.com
 
 ## Available Scripts
 
