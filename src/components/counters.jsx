@@ -7,14 +7,19 @@ class Counters extends Component {
 
 
     render() {
+        console.log('Counters - Rendered');
         return (
         <div>
 
             <button
                 onClick={this.props.onReset}
                 className='btn btn-primary btn-sm m-2'>
-            Reset
+            Reset Quantities
         </button>
+            <button
+                onClick={() => window.location.reload(false)}
+                className='btn btn-primary btn-sm m-2'>
+                Reset Cart</button>
 
             { this.props.counters.map(counter => (
                 <Counter

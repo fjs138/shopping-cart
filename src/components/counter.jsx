@@ -1,9 +1,21 @@
 import React, {Component} from 'react';
 class Counter extends Component {
- /*   state = {
-        //shopping cart total count
-        count:this.props.counter.value
-    };*/
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        console.log('prevProps', prevProps);
+        console.log('prevState', prevState);
+        if (prevProps.counter.value !== this.props.counter.value) {
+            // Ajax call and get new data from the server
+        }
+    }
+
+    componentWillUnmount() {
+        console.log('Counter - Unmount');
+    }
+
+    /*   state = {
+           //shopping cart total count
+           count:this.props.counter.value
+       };*/
 
 
 
@@ -19,6 +31,7 @@ class Counter extends Component {
    };*/
 
     render() {
+        console.log('Counter Rendered');
         console.log('props', this.props);
         const {counter, onIncrement, onDecrement, onDelete} = this.props;
         return (

@@ -13,6 +13,13 @@ if value of count property is zero, make cart counter yellow
 ## I have this project hosted on a nodejs server
 www.project.com
 
+## Screenshots
+
+## Next
+Remove ability to go below 0 for quantity in cart
+
+Optimize 'Reset Cart'
+
 ## Available Scripts
 
 In the project directory, you can run:
