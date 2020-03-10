@@ -14,6 +14,8 @@ if value of count property is zero, make cart counter yellow
 www.project.com
 
 ## Screenshots
+![alt text](src/shopping-cart.png "shopping cart sceenshot")
+
 
 ## Next
 Remove ability to go below 0 for quantity in cart
