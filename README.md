@@ -17,7 +17,7 @@ www.project.com
 
 ## Next
 Remove ability to go below 0 for quantity in cart
-
+Add total items in cart to navbar
 Optimize 'Reset Cart'
 
 ## Available Scripts

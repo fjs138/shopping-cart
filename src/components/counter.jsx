@@ -46,17 +46,17 @@ class Counter extends Component {
                     <div className='col'>
                     <button
                     onClick={() => onIncrement(counter)}
-                    className='btn btn-secondary btn-sm'>
-                    Increment
+                    className='btn btn-success btn-sm'>
+                    + Add
                 </button>
                         <button onClick={() => onDecrement(counter)}
-                                className='btn btn-danger btn-sm m-2'>
-                            Decrement
+                                className='btn btn-dark btn-sm m-2'>
+                            - Remove
                         </button>
                 <button
                     onClick={() => onDelete(counter.id)}
                     className='btn btn-danger btn-sm'>
-                    Delete
+                    Delete from cart
                 </button>
                     </div>
             </div>
@@ -71,7 +71,7 @@ class Counter extends Component {
 
     formatCount() {
         const {value} = this.props.counter;
-        return value === 0 ? 'Zero' : value;
+        return value === 0 ? 'Empty' : value;
                 }
 }
 

@@ -10,7 +10,6 @@ class Counters extends Component {
         console.log('Counters - Rendered');
         return (
         <div>
-
             <button
                 onClick={this.props.onReset}
                 className='btn btn-primary btn-sm m-2'>
