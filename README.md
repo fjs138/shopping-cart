@@ -1,19 +1,31 @@
+## shopping-cart
+A shopping cart UI.
+
+## Technology Stack:
+
+
+| Technology    	| Use           	  | Description     										  |
+| :------------------|:-------------------| :----------------										  |
+| React 			| UI Library   | A JavaScript library for building user interfaces				  |
+| Bootstrap			| Styling			  |	CSS framework           |
+| JavaScript			| Language			  |	Interpreted language            |
+
 ## Project Requirements
 Create a shopping cart that:
 
-tracks the total number of items in a cart in the navbar
+* tracks the total number of items in a cart in the navbar
 
-allows different item times to be added
+* allows different item times to be added
 
-allows for changing the quantity of an item
+* allows for changing the quantity of an item
 
-allows for deleting an item type from the cart
+* allows for deleting an item type from the cart
 
-tracks count of the quantity of each item purchased
+* tracks count of the quantity of each item purchased
 
-allows for the removal of items from the cart
+* allows for the removal of items from the cart
 
-allows for resetting/clearing the shopping cart
+* allows for resetting/clearing the shopping cart
 
 ## I have this project hosted here:
 https://builtbyfrank.com/shopping-cart/
@@ -22,7 +34,7 @@ https://builtbyfrank.com/shopping-cart/
 ![alt text](src/shopping-cart.png "shopping cart sceenshot")
 
 ## Demo
-![alt text](/shopping-cart.gif "shopping cart demo")
+![alt text](/shopping-cart.gif "shopping cart demo")   
 
 
 ## Next
