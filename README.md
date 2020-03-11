@@ -21,6 +21,9 @@ https://builtbyfrank.com/shopping-cart/
 ## Screenshots
 ![alt text](src/shopping-cart.png "shopping cart sceenshot")
 
+## Demo
+![alt text](/shopping-cart.gif "shopping cart demo")
+
 
 ## Next
 Remove ability to go below 0 for quantity in cart
